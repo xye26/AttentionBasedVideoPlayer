@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pretest Instructions</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 100vh;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <h2>EyeFocus Video Player</h2>    
+    <p>You will now start interacting with the EyeFocus Video Player.</p>
+    <p>This video player might pause the video based on your attention level.</p>    
+    <p>You need to click 'OK' and 'Allow' to enable camera access.</p>
+    <p>The video lecture will last approximately 20 minutes.</p>
+    <button onclick="location.href='ea.html'">2. Next Page</button>
+</body>
+
+<script>
+    // Get the button element
+    var button = document.getElementById('first');
+
+    // Add click event listener to the button
+    button.addEventListener('click', function() {
+        // Disable the button after it's clicked
+        button.disabled = true;
+    });
+</script>
+</html>

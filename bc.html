@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calibration Instructions</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        p {
+            margin-bottom: 0px; /* Adjust as needed */
+        }
+    </style>
+</head>
+<body>
+    <h2>Calibration Instructions</h2>
+    <p>Please follow the instructions in the new window to calibrate your gaze.</p>
+    <p>You can also read the step-by-step instruction on the paper.</p>
+    <p>When calibrate, find a comfortable position with your head within the box.</p>
+    <p>Once complete, you'll see an accuracy number on the screen.</p>
+    <p>If accuracy is below 50%, please recalibrate.</p>
+    <p>If it's above 50%,
+        <span style="color: red; font-weight: bold;">write down the accuracy number on your ID paper.</span>
+    </p>
+    <br>
+    <button id="first" onclick="window.open('https://webgazer.cs.brown.edu/calibration.html', '_blank')">1. Start Calibration</button>
+    <h3>-----Continue After Instructions From Researcher-----</h3>
+    <button onclick="location.href='cp.html'">2. Next Page</button>
+</body>
+
+</html>

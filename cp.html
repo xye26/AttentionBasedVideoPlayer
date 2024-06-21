@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pretest Instructions</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 100vh;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <h2>Pretest Instructions</h2>
+    <p>Click the button below to start the pretest.</p>
+    <button id="first" onclick="window.open('https://htionline.tue.nl/limesurvey/index.php/822243?lang=en', '_blank')">1. Start Pretest</button>
+    <h3>-----Continue After Pretest-----</h3>
+    <button onclick="location.href='dp.html'">2. Next Page</button>
+</body>
+
+<script>
+    // Get the button element
+    var button = document.getElementById('first');
+
+    // Add click event listener to the button
+    button.addEventListener('click', function() {
+        // Disable the button after it's clicked
+        button.disabled = true;
+    });
+</script>
+</html>
